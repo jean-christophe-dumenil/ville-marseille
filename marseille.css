@@ -35,7 +35,7 @@
 }
 .navbar li:hover,
 a:hover {
-  background: linear-gradient(white, black);
+  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
 }
 .navbar li ul {
   display: none;
@@ -48,7 +48,7 @@ a:hover {
   display: block;
 }
 .navbar li ul li {
-  background-color: #444444;
+  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
 }
 .navbar li ul li a {
   border-left: 1px solid #444444;
@@ -86,7 +86,6 @@ header img{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
 }
 
 .social-icon,
@@ -145,7 +144,7 @@ header img{
   height: 100px;
   background: url("https://i.ibb.co/wQZVxxk/wave.png");
   background-size: 1000px 100px;
-  background-color: #000000;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .wave#wave1 {
@@ -193,9 +192,7 @@ header img{
     background-positon-x: 0px;
   }
 }
-main{
-    margin: 2%;
-}
+
 .container {
   display: grid; 
   grid-template-columns: 40% 60%; 
@@ -209,12 +206,16 @@ main{
 .info1 { grid-area: info1; }
 .info2 { grid-area: info2; }
 .info3 { grid-area: info3; }
-main{
+.main1{
   background-image: url("marseille-nuit.jpg");
   background-color: #000000;
   margin: 0%;
   background-size: contain;
   background-repeat: no-repeat;
+
+}
+.main{
+  margin: 2%;
 }
 .marseille{
   text-align: justify;

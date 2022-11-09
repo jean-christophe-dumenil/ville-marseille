@@ -1,0 +1,43 @@
+figcaption{
+  color: aliceblue;
+  padding-left: 2%;
+}
+.précaution{
+  text-align: justify;
+  font-size: 18px;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.rando_img{
+  height: 300px;
+  width: 487px;
+  object-fit: cover;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.randonnées{
+  padding-top: 4%;
+}
+.randonnée_titre{
+  text-align: center;
+  padding-bottom: 2%;
+  text-decoration: overline underline;
+}
+ul{
+  margin-left: 10%;
+}
+u{
+  color: red;
+}
+.main2{
+  background: linear-gradient(black, red, white);
+}

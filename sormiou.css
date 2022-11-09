@@ -1,0 +1,65 @@
+.main3{
+    background: linear-gradient(black, red, white);
+    padding: 10%;
+}
+.sormiou{
+    text-align: justify;
+    font-size: 18px;
+    padding: 10%;
+    padding-top: 0%;
+    background: rgba(228, 189, 189, 0);
+    box-sizing: border;
+    border-radius: 10px;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /*background: rgb(116, 22, 113);*/
+    color: rgb(255, 250, 250);
+}
+.sormiou_titre{
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(24, 226, 24);
+}
+.sormiou_intro1{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.sormiou_niveau{
+    margin-left: 20%;
+    padding-bottom: 2%;
+}
+.sormiou_titre2{
+    padding-bottom: 2%;
+    color: rgb(10, 234, 241);
+}
+.para_acces{
+    padding-bottom: 2%;
+}
+.sormiou_titre3{
+    padding-bottom: 2%;
+    color: rgb(10, 232, 239);
+}
+.sormiou_parcours{
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+.sormiou_plan{
+    padding-bottom: 5%;
+    margin-left: -5%;
+}
+.sormiou_lien{
+    padding-bottom: 2%;
+    color: rgb(0, 100, 104);
+}
+.sormiou_lien1{
+    line-height: 2.5;
+    list-style: none;
+
+}
+a{
+    color: rgb(17, 0, 254);
+}
+strong{
+    color: rgb(231, 205, 14);
+}
