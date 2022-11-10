@@ -55,11 +55,8 @@
 .sormiou_lien1{
     line-height: 2.5;
     list-style: none;
+
 }
-a {
+a{
     color: rgb(17, 0, 254);
-    
-}
-strong{
-    color: rgb(231, 205, 14);
 }

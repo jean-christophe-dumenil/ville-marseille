@@ -46,7 +46,7 @@
 }
 .sormiou_plan{
     padding-bottom: 5%;
-    margin-left: 20%;
+    margin-left: -5%;
 }
 .sormiou_lien{
     padding-bottom: 2%;
@@ -56,9 +56,7 @@
     line-height: 2.5;
     list-style: none;
 }
-a{
+a {
     color: rgb(17, 0, 254);
-}
-strong{
-    color: rgb(231, 205, 14);
+    
 }
