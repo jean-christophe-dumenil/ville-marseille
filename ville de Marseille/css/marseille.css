@@ -4,7 +4,7 @@
   margin: 0;
   z-index: 99;
   position: relative;
-  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
+  background: grey;
 }
 .navbar {
   height: 50px;
@@ -22,7 +22,7 @@
   font: normal bold 13px/1em Arial, Verdana, Helvetica;
   padding: 0;
   margin: 0;
-  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
+  background: grey;
 }
 .navbar a {
   padding: 18px 0;
@@ -35,7 +35,7 @@
 }
 .navbar li:hover,
 a:hover {
-  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
+  background: grey;
 }
 .navbar li ul {
   display: none;
@@ -48,7 +48,7 @@ a:hover {
   display: block;
 }
 .navbar li ul li {
-  background: linear-gradient(white,rgb(155, 35, 35), rgba(0, 0, 0, 0.986));
+  background: grey;
 }
 .navbar li ul li a {
   border-left: 1px solid #444444;
@@ -70,7 +70,7 @@ header img{
 header img{
   margin-left: 32.5%;
 }
-* {
+.body1{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -207,11 +207,12 @@ header img{
 .info2 { grid-area: info2; }
 .info3 { grid-area: info3; }
 .main1{
-  background-image: url("marseille-nuit.jpg");
+  background-image: url("../image/main.jpg");
   background-color: #000000;
   margin: 0%;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 5%;
 
 }
 .main{
@@ -225,7 +226,7 @@ header img{
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0 15px 50px rgb(0,0,0,.2);
-  height: 1250px;
+  height: 1300px;
   padding-top: 7%;
   padding-left: 5%;
   padding-right: 5%;
@@ -345,5 +346,5 @@ header img{
   margin-top: 2%;
 }
 .marseille_img{
-  margin-left: 6%;
+  margin-left: 1%;
 }
