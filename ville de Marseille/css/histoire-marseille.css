@@ -39,14 +39,14 @@
 }
 .image2{
     text-align: center;
-    padding-bottom: -10%;
+    padding: 0;
 }
 figcaption{
     box-shadow: none;
     font-size: 18px;
     font-style: normal;
     color: #AAAAAA;
-    padding-bottom: -10%;
+    padding-top: 0;
 }
 .pic1{
     width: 700px;
