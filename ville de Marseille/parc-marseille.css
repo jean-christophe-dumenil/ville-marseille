@@ -1,0 +1,56 @@
+.titre-page{
+    font-size: 40px;
+    color:rgb(201, 194, 194) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #382b2b;
+}
+.bloc-image{
+    width: 700px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.bloc-text{
+    width: 700px;
+    margin-right: 200px;
+    margin-top: 60px;
+    
+}
+.bloc1{
+    display: flex;
+    justify-content:space-between;
+}
+.bloc2{
+    display: flex;
+    justify-content: center;
+}
+.bloc-text1{
+    margin-left: 100px;
+    width: 700px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+.image3{
+    width: 700px;
+    height: 400px;
+    border-radius: 60px;
+}
+.texte1{
+    
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(63, 15, 15);
+    padding: 0 13px 0 13px;
+}
+.titre-secondaire{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-left: 13px;
+    color:rgb(168, 40, 40); 
+}
+.parc-marseille{
+background-color: rgb(255, 246, 234);
+}
