@@ -1,0 +1,80 @@
+:root{
+    --background : rgb(19, 42, 105);
+    --texte : white;
+}
+
+.main {
+    padding-bottom: 10vh;
+}
+
+/* Annuaire */
+.upper{
+    height: 70vh;
+    background-image: url(../image/mucem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.upper_texte .titre{
+    font-size: 3rem;
+    color: var(--texte);
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.upper_texte p{
+    text-align: end;
+    padding: 50px;
+    z-index: 10;
+    color: var(--texte);
+    font-size: 2rem;
+}
+
+.row {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.content {
+    min-width: 500px;
+    width: calc(100%/2);
+    border-radius: 25px;
+    max-width: 300px;
+    flex-grow: 4;
+    flex-shrink: 0;
+    aspect-ratio: 16/9;
+    margin: 30px;
+    background-color: var(--background);
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.content img{
+    max-width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0;
+    aspect-ratio: 16/9;
+}
+
+.content_texte {
+    padding: 25px;
+    color: var(--texte);
+    line-height: 25px;
+}
+
+.content_texte a{
+    color: var(--texte);
+}
