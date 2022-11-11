@@ -1,6 +1,6 @@
 figcaption{
   color: aliceblue;
-  
+  padding-left: 2%;
 }
 .précaution{
   text-align: justify;
@@ -22,8 +22,7 @@ figcaption{
 .image {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5%;
-  
+  margin-bottom: 4%;
 }
 .randonnées{
   padding-top: 4%;
@@ -41,5 +40,4 @@ u{
 }
 .main2{
   background: linear-gradient(black, red, white);
-  
 }

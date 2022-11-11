@@ -1,6 +1,6 @@
 .contenue{
     background-color: rgb(220, 230, 243);
-   width: 1000px;
+    width: 1000px;
 }
 .ville-marseille{
     display: flex;
@@ -39,14 +39,14 @@
 }
 .image2{
     text-align: center;
-    padding: 0;
+    padding-bottom: -10%;
 }
 figcaption{
     box-shadow: none;
     font-size: 18px;
     font-style: normal;
     color: #AAAAAA;
-    padding-top: 0;
+    padding-bottom: -10%;
 }
 .pic1{
     width: 700px;
